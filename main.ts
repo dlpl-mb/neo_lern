@@ -29,7 +29,7 @@ function setFarbe(snr:number,rangeNr:number) {
     //     //matrix_range[snr][rangeNr].setPixelColor(j, NeoPixelColors.Green);
     //     matrix_range[snr][rangeNr].showColor(neopixel.colors(NeoPixelColors.Blue))
     // }
-    matrix_range[snr*4+rangeNr].showColor(neopixel.colors(NeoPixelColors.Blue))
+    //matrix_range[snr*4+rangeNr].showColor(neopixel.colors(NeoPixelColors.Blue))
     matrix[snr].show()
 }
 
